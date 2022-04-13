@@ -7,11 +7,23 @@
 递归可以理解成把复杂问题的问题简单化，把一个问题拆解，一步步去解决。
 注意写代码的时候尽量少用++x,x++,对于小白来说这是比较犯错的
 简单的递归例子：
+
 ![image](https://user-images.githubusercontent.com/84304647/163237833-8f4b6269-efdc-4920-9b2b-9613905f4971.png)
+
+
+
 但是这个代码会中途中断，这就涉及到栈溢出的概念
+
+
 ![image](https://user-images.githubusercontent.com/84304647/163238006-6a87ee16-c165-4840-8444-e00a6f6c3a30.png)
 ![image](https://user-images.githubusercontent.com/84304647/163238040-fcd2c9f5-abf2-49e5-b4c9-3a0a9dbb27d7.png)
+
+
+
 在栈区我们存储局部变量和形参，main函数在里面开辟空间用来存储局部变量，而调用函数的时候就会开辟空间给形参，调用完自动销毁，而调用不终止并且一直在调用会一直开辟空间直到溢出，这就是中断的原因。
+
+
+
 ![image](https://user-images.githubusercontent.com/84304647/163238674-81009672-d4e7-4341-b6e6-11aeeef001b8.png)
 
 简单的递归例子：
