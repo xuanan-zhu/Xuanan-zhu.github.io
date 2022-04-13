@@ -4,6 +4,7 @@
 
 今天我们来讲讲递归~
 
+![image](https://user-images.githubusercontent.com/84304647/163178703-2f2c00af-0ef9-44d0-b488-ed710f0818bc.png)
 
 ```markdown
 
